@@ -21,7 +21,7 @@
 #end 
 
 class EmailAddressParser
-  
+  attr_accessor
   
   
   
