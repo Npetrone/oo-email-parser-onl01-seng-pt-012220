@@ -21,14 +21,14 @@
 #end 
 
 class EmailAddressParser
-  attr_accessor :email
+  attr_accessor :csv_emails
   
-  def inititalize(email)
-    @email = email
+  def inititalize(csv_emails)
+    @csv_emails = csv_emails
   end
   
   def parse
-    email.split.collect do |address|
+    csv_emails.split.collect do |address|
       address.split(',')
     end
     .flatten.uniq
