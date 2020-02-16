@@ -5,7 +5,7 @@
 
 class EmailAddressParser
 
-attr_accessor :email
+attr_accessor :csv_emails
 
 def parse
   
