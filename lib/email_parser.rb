@@ -20,3 +20,9 @@
   #end 
 #end 
 
+class EmailAddressParser
+  
+  
+  
+  
+end
