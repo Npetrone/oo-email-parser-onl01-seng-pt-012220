@@ -21,8 +21,11 @@
 #end 
 
 class EmailAddressParser
-  attr_accessor
+  attr_accessor :email
   
+  def inititalize(email)
+    @email = email
+  end
   
   
 end
